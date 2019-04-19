@@ -1,0 +1,81 @@
+*{
+	box-sizing: border-box;
+}
+p{
+		color: #888888;
+}
+.regform{
+	text-align: center;
+	}
+fieldset{
+	border: none;
+	}
+input{
+	padding: 5px;
+	}
+.forminput{
+	width: 100;
+	display: inline-block; /*lets the div's line up next to eachother*/
+	text-align: left; /*makes the text in the divs inside text align left*/
+	}
+.forminput label,input{
+	margin-left: 50px;
+	}
+.formsubmit input{
+	margin-left: 0px;
+}
+.divnav{
+	margin: 10px 0px;
+}
+.mainimage{
+	display: block;
+	margin: 0px auto;
+}
+.mainimagehovertext{
+	position: absolute;
+	top: 75%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 3em;
+	color: white;
+	margin: 0px 0px;
+}
+
+.banner{
+	text-align: center;
+}
+.headerseclogo{
+	display: inline-block;
+	width: 47vw;
+}
+.headersecsignin{
+	display: inline-block;
+	width: 47vw;
+	text-align: right;
+}
+body{
+	height: -webkit-fill-available;	
+}
+.searchzipblurb, .zipcodesearch{
+	display: table;
+	margin: 50px auto;
+}
+footer{
+	/*need to make the footer stick to the bottom
+	  no matter what content is there*/
+	width: 100%;
+	display: inline-block;
+	bottom: 0;
+	
+}
+.footerdiv{
+	margin: 2em 0;
+	width: 100%;
+	text-align: center; /*allows us to center th inner divs when they are set up as inline-block*/
+}
+.footersec{
+	display: inline-block; /*lets the div's line up next to eachother*/
+	margin: 0 1em;
+	width: 25%;
+}
+
