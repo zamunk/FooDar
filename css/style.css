@@ -78,4 +78,11 @@ footer{
 	margin: 0 1em;
 	width: 25%;
 }
+.footersec ul{
+	list-style: none;
+}
+a:hover{
+	color: blue;
+	font-size: 1.05em;
+}
 
